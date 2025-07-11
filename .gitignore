@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.out
+*.a
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Docker build archive
+*.tar.gz
+
+# VSCode / Editor config (optional)
+.vscode/
+.idea/
+
+# Python virtual environments (if any)
+.venv/
+env/
+
