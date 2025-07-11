@@ -1,0 +1,8 @@
+FROM nvcr.io/nvidia/l4t-ml:r36.2.0-py3
+
+# 測試 CUDA 編譯器
+RUN nvcc --version
+
+WORKDIR /workspace
+CMD ["/bin/bash"]
+
